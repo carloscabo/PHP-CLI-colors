@@ -21,9 +21,9 @@
     }
   }
 
-  echo cli_error, $sample_text_1, cli_eol, cli_reset;
-  echo cli_warning, $sample_text_1, cli_eol, cli_reset;
-  echo cli_info, $sample_text_1, cli_eol, cli_reset;
-  echo cli_success, $sample_text_1, cli_eol, cli_reset;
+  echo cli_error,  'Error message!!!', cli_eol, cli_reset;
+  echo cli_warning,'Warning message', cli_eol, cli_reset;
+  echo cli_info, 'Info messsage', cli_eol, cli_reset;
+  echo cli_success, 'Success message', cli_eol, cli_reset;
 
-  echo 'Everithing reseted?';
+  echo cli_reset, cli_clreol, 'Everything reseted? ;)', cli_eol;
