@@ -5,23 +5,23 @@ Simple color constants to output background / foreground colors in cli (bash, cm
 
 ## Why?
 
-There are several options to colorize CLI outputs from PHP but I find them innecesary complex (from my oint of view), I think it's much easier use some well defined constants instead classes and objects.
+There are several options to colorize CLI outputs from PHP but I find them innecesary complex (from my point of view), I think it's much easier use some well defined constants instead classes and objects.
 
 ## How to use
 
 ```php
-echo cli_red, "My string", cli_oel;
-// Outputs My string in red color and a final breakline (\n)
+echo cli_red, "My string", cli_eol;
+// Outputs "My string" in red color and a final breakline (\n)
 
-echo cli_yellow, cli_blue_bg, "My string", cli_oel;
-// Outputs My string in yellow over blue background and a final breakline (\n)
+echo cli_yellow, cli_blue_bg, "My string", cli_eol;
+// Outputs "My string" in yellow over blue background and a final breakline (\n)
 ```
 
-It's important yo notice that **color setting will continue in use in all the sebseuquential output. To reset the CLI colors to it's default value use `cli_reset`;
+It's important yo notice that **color settings will continue to affect CLI outputs in all the sebseuquential echoes**. To reset the CLI colors to it's default values use `cli_reset`;
 
 ```php
-echo cli_red, "Red text", cli_ellow, "Yellow text", cli_oel;
-echo cli_reset, "This will be in default CLI color.", cli_oel;
+echo cli_red, "Red text", cli_ellow, "Yellow text", cli_eol;
+echo cli_reset, "This will be in default CLI color.", cli_eol;
 ```
 
 ## Available colors
@@ -90,7 +90,7 @@ cli_hiden
 
 For instance
 ```php
-echo cli_red_bg, "White text over red bg", cli_reverse, "Red text over white bg", cli_reset, cli_oel;
+echo cli_red_bg, "White text over red bg", cli_reverse, "Red text over white bg", cli_reset, cli_eol;
 ```
 
 ## Helpers
