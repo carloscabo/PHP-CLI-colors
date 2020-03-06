@@ -85,7 +85,7 @@ cli_dim
 cli_underline
 cli_blink
 cli_reverse
-cli_hiden
+cli_hidden
 ````
 
 For instance

@@ -8,7 +8,7 @@
 
   $bgs = [cli_default_bg, cli_black_bg, cli_red_bg, cli_green_bg, cli_yellow_bg,  cli_blue_bg, cli_magenta_bg, cli_cyan_bg, cli_grey_bg, cli_dark_grey_bg, cli_light_red_bg, cli_light_green_bg, cli_light_yellow_bg, cli_light_blue_bg, cli_light_magenta_bg, cli_light_cyan_bg, cli_white_bg];
 
-  $decors = [cli_bold, cli_dim, cli_underline, cli_blink, cli_reverse, cli_hiden];
+  $decors = [cli_bold, cli_dim, cli_underline, cli_blink, cli_reverse, cli_hidden];
 
   foreach ($fgs as $fg) {
     # code...

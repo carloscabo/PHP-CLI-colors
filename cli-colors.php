@@ -12,7 +12,7 @@ define("cli_dim",      "\e[2m");
 define("cli_underline","\e[4m");
 define("cli_blink",    "\e[5m");
 define("cli_reverse",  "\e[7m");
-define("cli_hiden",    "\e[8m");
+define("cli_hidden",    "\e[8m");
 
 define("cli_clreol",  "\e[K"); // Clears to the end of line
 define("cli_eol",     "\n");
