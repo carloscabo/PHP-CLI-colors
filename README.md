@@ -113,3 +113,7 @@ echo cli_error, "Error message!", cli_reset;
 ## Tests
 
 Run `php -f cli-colors-test.php` from your CLI.
+
+## TO-DO
+
+¿Convert to composer module?
